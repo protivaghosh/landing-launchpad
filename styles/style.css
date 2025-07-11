@@ -10,6 +10,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.body{
+  background-color: #F5F8FF;
+}
 .header-section{
   background-image: url('../Assets/Hero-bg.png');
   
@@ -44,7 +47,7 @@
   padding: 20px 267px 180px 267px;
 }
 .banner-title{
-  font-size: 65px;
+  font-size: 58px;
   font-weight: 700;
   color: #252432;
 }
@@ -60,5 +63,105 @@
 .banner-button:hover{
   background-color: aqua;
 }
+.main-section{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* Action Section */
+.action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.action-title{
+  font-size: 42px;
+  font-weight: 700;
 
+}
+.action-discription{
+  font-size: 24px;
+  font-weight: 400;
+}
+.action-button{
+  width: 229px;
+  height: 48px;
+  color: white;
+  background-color: #4E47FF;
+  font-weight: 700;
+  padding: 12px 36px 12px 36px;
+  border-radius: 10px;
+}
+.action-button:hover{
+  background-color: aqua;
+}
+
+.action-img{
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+/* Productive Users Section */
+.productive-section{
+  background: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 40px 100px;
+  margin-top: 100px;
+}
+.productive-user{
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+.user-title{
+  font-size: 85px;
+  font-weight: 700;
+  color: #4E47FF;
+}
+.user-section{
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+  text-align: center;
+}
+.user-discription{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* footer section */
+.footer{
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 100px 0px 100px 0px;
+}
+.footer-title{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+  
+}
+.footer-discription{
+  color: #8987A1;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-list li {
+  list-style: none;
+}
+.footer-list li a{
+  text-decoration: none;
+  
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 30px; 
+  margin-right: 50px;
+}
+.dark{
+  color: #8987A1;
+}
