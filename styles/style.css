@@ -165,3 +165,72 @@ footer ul{
 .dark{
   color: #8987A1;
 }
+
+/* card section */
+.card-section{
+  width: 366px;
+height: 243px;
+border-radius: 14px;
+padding: 24px;
+background-color:rgb(255, 255, 255);;
+/* border: 2px solid brown; */
+}
+.card-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
+.card-insest{
+  display: flex;
+  gap: 20px;
+  margin-top: 35px;
+}
+.our-user-section{
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  text-align: center;
+  margin-top: 100px;
+}
+.cards-section{
+  display: flex;
+  gap: 25px;
+}
+/*  Let’s Get In Touch Section */
+.label-section{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.input-side{
+  width: 49px;
+  height: 70px;
+  padding: 20px 32px 20px 32px;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background-color: white;
+}
+.textarea{
+  height: 150px;
+}
+.touch-title{
+  font-size: 95px;
+  font-weight: 700;
+}
+.touch-section{
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+  padding: 70px 0px;
+}
+.touch-button{
+  width: 490px;
+  height: 48px;
+  color: white;
+  background-color: #4E47FF;
+  font-weight: 700;
+  padding: 12px 36px 12px 36px;
+  border-radius: 10px;
+}
