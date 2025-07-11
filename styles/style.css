@@ -135,6 +135,7 @@
   background-color: #FFFFFF;
   text-align: center;
   padding: 100px 0px 100px 0px;
+  margin-top: 50px;
 }
 .footer-title{
   font-size: 100px;
@@ -196,12 +197,38 @@ background-color:rgb(255, 255, 255);;
   display: flex;
   gap: 25px;
 }
-/* better section */
+/*ready to focus better section */
 .better-section{
   text-align: center;
   background-color: rgb(255, 255, 255);
   border-radius: 14px;
   padding: 71px 150px 71px 150px;
+  margin-top: 100px;
+}
+.focus-title{
+  font-size: 50px;
+  font-weight: 700;
+}
+.focus-discription{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.focus-button{
+  width: 195px;
+  height: 48px;
+  color: white;
+  background-color: #4E47FF;
+  font-weight: 700;
+  padding: 12px 36px 12px 36px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+
+}
+.focus-img{
+  height: 364px;
+  width: 840px;
+  border-radius: 48px;
 }
 /*  Let’s Get In Touch Section */
 .label-section{
