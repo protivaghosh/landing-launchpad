@@ -225,6 +225,9 @@ background-color:rgb(255, 255, 255);;
   margin-bottom: 30px;
 
 }
+.focus-button:hover{
+  background-color: aqua;
+}
 .focus-img{
   height: 364px;
   width: 840px;
