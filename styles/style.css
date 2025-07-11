@@ -10,12 +10,15 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.header-section{
+  background-image: url('../Assets/Hero-bg.png');
+  
+}
 /* Navbar Section */
 .nav-section{
   display: flex;
   justify-content: space-between;
-  padding: 50px 150px;
+  padding: 40px 150px;
   align-items: center;
 }
 .logo{
@@ -32,3 +35,30 @@
   padding: 12px 36px 12px 36px;
   border-radius: 10px;
 }
+.button:hover{
+  background-color: aqua;
+}
+/* Banner Section  */
+.banner-section{
+  text-align: center;
+  padding: 20px 267px 180px 267px;
+}
+.banner-title{
+  font-size: 65px;
+  font-weight: 700;
+  color: #252432;
+}
+.banner-button{
+  width: 174px;
+  height: 48px;
+  color: white;
+  background-color: #4E47FF;
+  font-weight: 700;
+  padding: 12px 36px 12px 36px;
+  border-radius: 10px;
+}
+.banner-button:hover{
+  background-color: aqua;
+}
+/* Action Section */
+
